@@ -1,22 +1,50 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home.vue'
+import Topic from '@/views/Topic.vue'
+import BoomSeason from '@/views/BoomSeason.vue'
+import RealTime from '@/views/RealTime.vue'
+import Attention from '@/views/Attention.vue'
+import Index from '@/views/Index.vue'
+import Login from '@/components/Login.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: '/login'
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/login',
+    component: Login
+  },
+  {
+    path: '/home',
+    component: Home,
+    redirect: '/index',
+    children: [
+      {
+        path: '/index',
+        component: Index
+      },
+      {
+        path: '/topic',
+        component: Topic
+      },
+      {
+        path: '/peek',
+        component: BoomSeason
+      },
+      {
+        path: '/real',
+        component: RealTime
+      },
+      {
+        path: '/attention',
+        component: Attention
+      }
+    ]
   }
 ]
 
