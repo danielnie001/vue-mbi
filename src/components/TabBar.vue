@@ -26,12 +26,7 @@
       <van-tabbar-item badge="new" to="/peek">
         <span>旺季</span>
         <template #icon="props">
-          <van-icon
-            class="iconfont"
-            size="28"
-            class-prefix="icon"
-            name="huo"
-          />
+          <van-icon class="iconfont" size="28" class-prefix="icon" name="huo" />
         </template>
       </van-tabbar-item>
       <van-tabbar-item to="/real">
@@ -100,8 +95,11 @@ export default {
 <style lang="less" scoped>
 .van-tabbar {
   background-color: #f2f2f2;
+  .van-tabbar-item--active {
+    background-color: #f2f2f2;
+  }
 }
-.van-tabbar-item--active {
-  background-color: #f2f2f2;
+.van-hairline--top-bottom{
+  border-bottom: 1px solid #e8e8e8 !important;
 }
 </style>

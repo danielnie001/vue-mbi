@@ -1,18 +1,24 @@
 <template>
   <div>
-    <v-header msg="专题"/>
+    <van-nav-bar :title="msg" fixed>
+      <template #left>
+        <img src="../assets/img/side01.png" class="sideIcon" />
+      </template>
+    </van-nav-bar>
   </div>
 </template>
 
 <script>
-// 专题页面
+// 每页头部标题
 // 这里可以导入其他文件(比如：组件，工具js，第三方插件js，json文件，图片文件等等)
 // 例如：import《组件名称》from '《组件路径》';
-import Header from '../components/Header'
+
 export default {
   // import引入的组件需要注入到对象中才能使用
-  components: { 'v-header': Header },
-  props: {},
+  components: {},
+  props: {
+    msg: String
+  },
   data() {
     // 这里存放数据
     return {}
@@ -37,5 +43,11 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-// @import url();引入公共css类
+.sideIcon {
+  width: 25px;
+  height: 25px;
+}
+.van-hairline--bottom {
+  border-bottom: 1px solid #e8e8e8 !important;
+}
 </style>

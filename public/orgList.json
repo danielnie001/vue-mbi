@@ -1,0 +1,586 @@
+[
+  {
+    "branchId": "101999",
+    "branchName": "总行",
+    "pId": "",
+    "qx": "1",
+    "children": [
+      {
+        "branchId": "101902",
+        "branchName": "常熟营业部（城区）",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101200",
+            "branchName": "营业部",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101227",
+            "branchName": "开发区支行",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101233",
+            "branchName": "新颜支行",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101234",
+            "branchName": "城北支行",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101235",
+            "branchName": "虞山支行",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101236",
+            "branchName": "虞山林场支行",
+            "pId": "101902",
+            "qx": "1"
+          },
+          {
+            "branchId": "101238",
+            "branchName": "金龙支行",
+            "pId": "101902",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101901",
+        "branchName": "梅李中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101201",
+            "branchName": "梅李支行",
+            "pId": "101901",
+            "qx": "1"
+          },
+          {
+            "branchId": "101202",
+            "branchName": "珍门支行",
+            "pId": "101901",
+            "qx": "1"
+          },
+          {
+            "branchId": "101203",
+            "branchName": "赵市支行",
+            "pId": "101901",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101909",
+        "branchName": "碧溪中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101205",
+            "branchName": "东张支行",
+            "pId": "101909",
+            "qx": "1"
+          },
+          {
+            "branchId": "101206",
+            "branchName": "碧溪支行",
+            "pId": "101909",
+            "qx": "1"
+          },
+          {
+            "branchId": "101207",
+            "branchName": "浒浦支行",
+            "pId": "101909",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101906",
+        "branchName": "董浜中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101208",
+            "branchName": "徐市支行",
+            "pId": "101906",
+            "qx": "1"
+          },
+          {
+            "branchId": "101209",
+            "branchName": "董浜支行",
+            "pId": "101906",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101905",
+        "branchName": "沙家浜中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101210",
+            "branchName": "唐市支行",
+            "pId": "101905",
+            "qx": "1"
+          },
+          {
+            "branchId": "101211",
+            "branchName": "沙家浜支行",
+            "pId": "101905",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101904",
+        "branchName": "支塘中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101212",
+            "branchName": "任阳支行",
+            "pId": "101904",
+            "qx": "1"
+          },
+          {
+            "branchId": "101213",
+            "branchName": "支塘支行",
+            "pId": "101904",
+            "qx": "1"
+          },
+          {
+            "branchId": "101214",
+            "branchName": "何市支行",
+            "pId": "101904",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101907",
+        "branchName": "古里中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101215",
+            "branchName": "白茆支行",
+            "pId": "101907",
+            "qx": "1"
+          },
+          {
+            "branchId": "101216",
+            "branchName": "古里支行",
+            "pId": "101907",
+            "qx": "1"
+          },
+          {
+            "branchId": "101217",
+            "branchName": "淼泉支行",
+            "pId": "101907",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101908",
+        "branchName": "海虞中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101218",
+            "branchName": "周行支行",
+            "pId": "101908",
+            "qx": "1"
+          },
+          {
+            "branchId": "101219",
+            "branchName": "海虞支行",
+            "pId": "101908",
+            "qx": "1"
+          },
+          {
+            "branchId": "101220",
+            "branchName": "福山支行",
+            "pId": "101908",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101911",
+        "branchName": "尚湖中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101221",
+            "branchName": "练塘支行",
+            "pId": "101911",
+            "qx": "1"
+          },
+          {
+            "branchId": "101222",
+            "branchName": "王庄支行",
+            "pId": "101911",
+            "qx": "1"
+          },
+          {
+            "branchId": "101223",
+            "branchName": "尚湖支行",
+            "pId": "101911",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101903",
+        "branchName": "辛庄中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101224",
+            "branchName": "张桥支行",
+            "pId": "101903",
+            "qx": "1"
+          },
+          {
+            "branchId": "101225",
+            "branchName": "辛庄支行",
+            "pId": "101903",
+            "qx": "1"
+          },
+          {
+            "branchId": "101226",
+            "branchName": "杨园支行",
+            "pId": "101903",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101910",
+        "branchName": "招商中心支行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "101232",
+            "branchName": "莫城支行",
+            "pId": "101910",
+            "qx": "1"
+          },
+          {
+            "branchId": "101240",
+            "branchName": "招商支行",
+            "pId": "101910",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "101228",
+        "branchName": "谢桥支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "101229",
+        "branchName": "大义支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "101230",
+        "branchName": "兴隆支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "101231",
+        "branchName": "东南支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "102000",
+        "branchName": "南通分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "102200",
+            "branchName": "海门支行",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102400",
+            "branchName": "如东支行",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102500",
+            "branchName": "启东支行",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102100",
+            "branchName": "南通分行营业部",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102600",
+            "branchName": "通州支行",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102700",
+            "branchName": "如皋支行",
+            "pId": "102000",
+            "qx": "1"
+          },
+          {
+            "branchId": "102800",
+            "branchName": "海安支行",
+            "pId": "102000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "105000",
+        "branchName": "扬州分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "105200",
+            "branchName": "邗江支行",
+            "pId": "105000",
+            "qx": "1"
+          },
+          {
+            "branchId": "105100",
+            "branchName": "扬州分行营业部",
+            "pId": "105000",
+            "qx": "1"
+          },
+          {
+            "branchId": "105300",
+            "branchName": "江都支行",
+            "pId": "105000",
+            "qx": "1"
+          },
+          {
+            "branchId": "105400",
+            "branchName": "仪征支行",
+            "pId": "105000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "107000",
+        "branchName": "盐城分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "107500",
+            "branchName": "射阳支行",
+            "pId": "107000",
+            "qx": "1"
+          },
+          {
+            "branchId": "107400",
+            "branchName": "阜宁支行",
+            "pId": "107000",
+            "qx": "1"
+          },
+          {
+            "branchId": "107200",
+            "branchName": "亭湖支行",
+            "pId": "107000",
+            "qx": "1"
+          },
+          {
+            "branchId": "107600",
+            "branchName": "东台支行",
+            "pId": "107000",
+            "qx": "1"
+          },
+          {
+            "branchId": "107100",
+            "branchName": "盐城分行营业部",
+            "pId": "107000",
+            "qx": "1"
+          },
+          {
+            "branchId": "107700",
+            "branchName": "大丰支行",
+            "pId": "107000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "108000",
+        "branchName": "苏州分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "108100",
+            "branchName": "苏州分行营业部",
+            "pId": "108000",
+            "qx": "1"
+          },
+          {
+            "branchId": "108500",
+            "branchName": "太仓支行",
+            "pId": "108000",
+            "qx": "1"
+          },
+          {
+            "branchId": "108400",
+            "branchName": "昆山支行",
+            "pId": "108000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "109000",
+        "branchName": "无锡分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "109100",
+            "branchName": "无锡分行营业部",
+            "pId": "109000",
+            "qx": "1"
+          },
+          {
+            "branchId": "109200",
+            "branchName": "江阴支行",
+            "pId": "109000",
+            "qx": "1"
+          },
+          {
+            "branchId": "109400",
+            "branchName": "宜兴支行",
+            "pId": "109000",
+            "qx": "1"
+          },
+          {
+            "branchId": "109500",
+            "branchName": "惠山支行",
+            "pId": "109000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "110000",
+        "branchName": "泰州分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "110100",
+            "branchName": "泰州分行营业部",
+            "pId": "110000",
+            "qx": "1"
+          },
+          {
+            "branchId": "110200",
+            "branchName": "靖江支行",
+            "pId": "110000",
+            "qx": "1"
+          },
+          {
+            "branchId": "110500",
+            "branchName": "泰兴支行",
+            "pId": "110000",
+            "qx": "1"
+          },
+          {
+            "branchId": "110400",
+            "branchName": "兴化支行",
+            "pId": "110000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "111000",
+        "branchName": "镇江分行",
+        "pId": "101999",
+        "qx": "1",
+        "children": [
+          {
+            "branchId": "111100",
+            "branchName": "镇江分行营业部",
+            "pId": "111000",
+            "qx": "1"
+          },
+          {
+            "branchId": "111200",
+            "branchName": "句容支行",
+            "pId": "111000",
+            "qx": "1"
+          }
+        ]
+      },
+      {
+        "branchId": "103200",
+        "branchName": "泗洪支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "104200",
+        "branchName": "金湖支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "106200",
+        "branchName": "东海支行",
+        "pId": "101999",
+        "qx": "1"
+      },
+      {
+        "branchId": "108200",
+        "branchName": "张家港支行",
+        "pId": "101999",
+        "qx": "1"
+      }
+    ]
+  }
+]

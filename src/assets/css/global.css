@@ -1,3 +1,7 @@
-.vux-badge{
-position: absolute;
+html,
+body {
+  background-color: #f7f8fa;
+}
+.main-content{
+    margin-top: 50px;
 }

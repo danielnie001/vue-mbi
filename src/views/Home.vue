@@ -1,6 +1,8 @@
 <template>
   <div class="home">
+    <!-- 路由视图 -->
     <router-view/>
+    <!-- 底部tabBar -->
     <TabBar/>
   </div>
 </template>
