@@ -11,7 +11,13 @@ import {
   Popup,
   Cascader,
   Picker,
-  Calendar
+  Calendar,
+  Grid,
+  GridItem,
+  ActionSheet,
+  Divider,
+  Collapse,
+  CollapseItem
 } from 'vant'
 
 Vue.use(Tabbar)
@@ -25,4 +31,10 @@ Vue.use(Popup)
 Vue.use(Cascader)
 Vue.use(Picker)
 Vue.use(Calendar)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(ActionSheet)
+Vue.use(Divider)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
 Vue.prototype.$message = Toast

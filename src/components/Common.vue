@@ -42,15 +42,14 @@
     </van-popup>
 
     <!-- 币种切换 -->
-    <van-popup v-model="showCurrency" round position="bottom">
-      <van-picker
-        title="请选择币种"
-        show-toolbar
-        :columns="columns"
-        @cancel="showCurrency = false"
-        @confirm="onCurrencyConfirm"
-      />
-    </van-popup>
+    <van-action-sheet
+      v-model="showCurrency"
+      :actions="actions"
+      cancel-text="取消"
+      description="请选择币种"
+      close-on-click-action
+      @select="onCurrencyConfirm"
+    />
 
     <!-- 切换日期组件 -->
     <van-calendar
@@ -88,7 +87,16 @@ export default {
         children: 'children'
       },
       // 币种数据
-      columns: ['人民币', '折人民币'],
+      actions: [
+        {
+          name: '人民币',
+          cid: '01'
+        },
+        {
+          name: '折人民币',
+          cid: '999'
+        }
+      ],
       // 是否显示币种选择弹框
       showCurrency: false,
       // 日期选择
@@ -116,8 +124,9 @@ export default {
       this.orgName = selectedOptions[selectedOptions.length - 1].branchName
     },
     // 点击币种切换按钮确定时触发
-    onCurrencyConfirm(value) {
-      this.currency = value
+    onCurrencyConfirm(item) {
+      console.log(item)
+      this.currency = item.name
       this.showCurrency = false
     },
     // 点击日期确定按钮时触发
@@ -158,6 +167,7 @@ export default {
 <style lang="less" scoped>
 // 机构样式表
 .organization {
+  background-color: #fff;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
   padding: 10px 0 8px 0;
@@ -166,8 +176,9 @@ export default {
   font-size: 14px;
   .box {
     height: 20px;
-    background-color: #e8e8e8;
+    background-color: #f7f7f8;
     text-align: center;
+    border-radius: 6px;
   }
   .orgBox {
     width: 80px;
